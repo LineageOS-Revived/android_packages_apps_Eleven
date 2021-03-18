@@ -18,7 +18,8 @@
     <!-- Material -->
     <color name="primary">#212121</color>
     <color name="primary_dark">#121212</color>
-    <color name="accent">#1ddbc5</color>
+    <color name="primary_light">#333333</color>
+    <color name="accent">@color/audio_preview_accent_color</color>
 
     <!-- Standard Text Color -->
     <color name="default_text_color">@color/white</color>
