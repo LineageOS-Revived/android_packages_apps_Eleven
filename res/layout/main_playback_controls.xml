@@ -52,7 +52,9 @@
         app:layout_constraintEnd_toStartOf="@+id/audio_player_total_time"
         app:layout_constraintStart_toEndOf="@+id/audio_player_current_time"
         app:layout_constraintTop_toTopOf="parent"
-        tools:progress="20" />
+        android:max="100"
+        android:progress="100"
+        tools:progress="100" />
 
     <TextView
         android:id="@+id/audio_player_total_time"

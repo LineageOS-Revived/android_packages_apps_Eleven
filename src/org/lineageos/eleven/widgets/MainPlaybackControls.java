@@ -136,7 +136,7 @@ public class MainPlaybackControls extends FrameLayout {
 
     public void refreshCurrentTime(long position, long duration, boolean isPlaying) {
         if (position >= 0 && duration > 0) {
-            final int posInSeconds = ((int) (position / 1000));
+            final int posInSeconds = ((int) (mSeeker.getMax() * position / duration));
             refreshCurrentTimeText(posInSeconds);
             mSeeker.setProgress(posInSeconds);
 
