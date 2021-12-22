@@ -56,7 +56,7 @@
         android:id="@+id/sliding_layout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/activity_base_background_color"
+        android:background="@color/background_color"
         android:gravity="bottom"
         app:directOffset="true"
         app:dragView="@+id/secondPanelDragArea"

@@ -57,6 +57,7 @@
     <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
+		<item name="android:windowBackground">@color/background_color</item>
     </style>
 
     <!-- Set the default list view divider color and size -->
